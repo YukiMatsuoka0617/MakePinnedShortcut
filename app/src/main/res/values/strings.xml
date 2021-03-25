@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MakePinnedShortcut</string>
+
+    <string name="shortcut_short_label1">Pinned shortcut1</string>
+    <string name="shortcut_long_label">Add New Website</string>
+    <string name="shortcut_disabled_message">Disabled</string>
+
+    <string name="shortcut_short_label_2">Pinned shortcut2</string>
+</resources>

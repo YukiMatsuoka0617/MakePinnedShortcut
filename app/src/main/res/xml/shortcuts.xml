@@ -1,0 +1,34 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="test1"
+        android:enabled="true"
+        android:icon="@drawable/android_icon_green"
+        android:shortcutShortLabel="@string/shortcut_short_label1"
+        android:shortcutLongLabel="@string/shortcut_long_label"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.makepinnedshortcut"
+            android:targetClass="com.example.makepinnedshortcut.MainActivity2" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="test2"
+        android:enabled="true"
+        android:icon="@drawable/android_icon_black"
+        android:shortcutShortLabel="@string/shortcut_short_label_2"
+        android:shortcutLongLabel="@string/shortcut_long_label"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.makepinnedshortcut"
+            android:targetClass="com.example.makepinnedshortcut.MainActivity3" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
